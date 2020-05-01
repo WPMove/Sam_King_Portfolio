@@ -28,13 +28,13 @@ $(document).ready(function () {
 
 
   $("#slideDown").click(function () {
-    $("#imgme").slideDown(5000); 
+    $("#imgme").slideDown(2500); 
   });
 
 
 
   $("#slideUp").click(function () {
-    $("#imgme").slideUp();
+    $("#imgme").slideUp(2500);
   });
 
 
@@ -60,7 +60,7 @@ $(document).ready(function () {
 
 
   $("#AC").click(function(){
-      console.log("clicked style button") // not working
+      console.log("clicked style button") 
     $(".btn").addClass("btnnew");
   });
 });
