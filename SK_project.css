@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 970px;
+  margin: 0 auto; /*sets the top and bottom margin to 0 and the left/right to auto*/
+  background-color: #062134;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 10px;
+}
+.main {
+  padding: 15px;
+  background-color: #27a7da;
+}
+
+.main img {
+  /* all img tags within (and only within) the container class will have this styling*/
+  width: 940px; /* sets width of all images inside this container to take 45% of the space*/
+  margin: 0px 0px 15px 0px;
+}
+header {
+  background-color: #062134;
+  color: white;
+  padding: 15px;
+}
+header h1 {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+header a {
+  display: inline-block;
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+}
+header span {
+  color: #ac0b96;
+}
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, minmax(100px, auto));
+  grid-gap: 15px;
+}
+.icon {
+  border-radius: 10px;
+}
+.content p {
+  margin-bottom: 10px;
+}
+.content div {
+  padding: 15px;
+  border-radius: 30px;
+}
+.center-bg {
+  background-color: white;
+  color: goldenrod;
+}
+.content img {
+  width: 65px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.content h1 {
+  display: inline-block;
+}
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: linear-gradient(to bottom, #4eb0ed 20%, #001892 100%);
+  background-color: #0469ce;
+  border-radius: 3px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 14px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  margin-top: 20px;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #001892 5%, #0469ce 100%);
+  background-color: #001892;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#myButton {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: linear-gradient(to bottom, #4eb0ed 20%, #001892 100%);
+  background-color: #0469ce;
+  border-radius: 3px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 14px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  margin-top: 37px;
+}
+#myButton:hover {
+  background: linear-gradient(to bottom, #001892 5%, #0469ce 100%);
+  background-color: #001892;
+}
+#myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#building_pic {
+  width: 275px;
+}
+footer {
+  background-color: #062134;
+  color: #39729b;
+  padding: 15px;
+  text-align: center;
+}
+footer a {
+  display: inline-block;
+  margin-left: 30px;
+  color: #39729b;
+  text-decoration: none;
+}
+footer span {
+  color: #97c8ec;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #daedff;
+  border-radius: 0.4em;
+  margin-top: 15px;
+  margin-bottom: 65px;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 48px solid transparent;
+  border-top-color: #daedff;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -24px;
+  margin-bottom: -48px;
+}
+h3 a {
+  color: #6692b2;
+  text-decoration: none;
+}
+#center {
+  text-align: center;
+}
+#thicbtn {
+  display: block;
+}
+.btn{
+    
+}
+.btnnew {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background: linear-gradient(to bottom, #4eb0ed 20%, #001892 100%);
+  background-color: #0469ce;
+  border-radius: 3px;
+  border: 1px solid #124d77;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 12px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  
+}
